@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-const InviteFriends = (props) => {
+const InviteFriendsPage = (props) => {
   return (
     <View>
       <View></View>
@@ -10,4 +10,4 @@ const InviteFriends = (props) => {
 };
 
 const styles = StyleSheet.create({});
-export default InviteFriends;
+export default InviteFriendsPage;
