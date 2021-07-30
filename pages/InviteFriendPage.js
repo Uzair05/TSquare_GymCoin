@@ -1,11 +1,14 @@
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Text } from "react-native";
+import ScreenView from "../screen/ScreenView";
+import HeaderOwn from "../components/HeaderOwn";
 
 const InviteFriendsPage = (props) => {
   return (
-    <View>
+    <ScreenView>
+      <HeaderOwn headerTitle="Invite Friends"></HeaderOwn>
       <View></View>
-    </View>
+    </ScreenView>
   );
 };
 

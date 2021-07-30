@@ -5,8 +5,8 @@ var MyLogo = require("../assets/CustomPlaceholderLogo.png");
 
 const LogoPiece = (props) => {
   return (
-    <View style={styles.logoPiece}>
-      <Image style={styles.images} source={MyLogo} resizeMode="contain" />
+    <View style={{ ...styles.logoPiece, ...props.logoPieceStyle }}>
+      <Image style={styles.images} source={MyLogo} resizeMode="center" />
     </View>
   );
 };
@@ -14,12 +14,13 @@ const LogoPiece = (props) => {
 const styles = StyleSheet.create({
   logoPiece: {
     width: "100%",
+    height: "30%",
     padding: 5,
     alignItems: "center",
     justifyContent: "center",
   },
   images: {
-    width: "50%",
+    width: "40%",
   },
 });
 export default LogoPiece;

@@ -13,7 +13,7 @@ const AddPromoCodePage = (props) => {
       <View>
         <HeaderOwn headerTitle="Promo Code" />
         <InviteFriends />
-        <LogoPiece />
+        <LogoPiece logoPieceStyle={{ height: "50%" }} />
         <PromoCode SubmitCode={() => {}} />
       </View>
     </ScreenView>
