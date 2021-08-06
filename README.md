@@ -7,7 +7,7 @@ GymCoin Android app for TSquare. Built in ReactNative
 use command
 
 ```bash
-cd tsquare_gymcoin/
+cd TSquare_GymCoin/
 yarn
 yarn start
 ```
